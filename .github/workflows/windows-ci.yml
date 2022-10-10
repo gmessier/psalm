@@ -59,7 +59,7 @@ jobs:
           coverage: none
           extensions: none, curl, dom, filter, json, libxml, mbstring, openssl, pcre, phar, reflection, simplexml, spl, tokenizer, xml, xmlwriter
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
 
       - name: Get Composer Cache Directories
         id: composer-cache
